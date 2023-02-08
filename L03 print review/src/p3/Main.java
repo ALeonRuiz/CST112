@@ -10,7 +10,7 @@ public class Main {
 		System.out.println("Enter the rate of increase: ");
 		double rate = scanner.nextDouble();
 
-		scanner.nextLine();
+		scanner.nextLine();// consumes the enter key signal left from the last statement
 
 		System.out.println("Enter dish 1:");
 		String dish1 = scanner.nextLine();
